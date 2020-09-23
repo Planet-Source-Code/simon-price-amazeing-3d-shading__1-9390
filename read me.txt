@@ -1,0 +1,27 @@
+-aMAZEing 3D (also goes by the name of VB DOOM)
+-version 'shaded 1.0'
+
+-by Simon Price (Si@VBgames.co.uk , www.VBgames.co.uk)
+
+
+-If you've seen Doom or Wolfenstien 3D then you might recognise what sort of game this is. Yep, it may look cool with all it's 3D lighted polygon wizardry but it's all fake, the whole thing's 2D. Don't believe me? Look in the folder '/Levels' - see those 2D bitmaps? Coincidently named 1 to 10? No, it's not a coincidence that they are named after the level names, the 3D level that you walk around is actually generated directly from those small bitmaps!!! Cool huh? The technique used to do this 2D to 3D transformation thingy is called ray casting, and was used in the very first 3D games such as Wolfenstein 3D and Doom.
+
+-In this version of the game, the polygons are shaded according to thier distance - they appear darker in the distance. Here I'll try to make up some technical sounding name for it - it's a ray casting engine with gouroud depth shaded cueing. Not. But it looks cool.
+
+-I also have to other versions of this game which are MUCH MUCH BETTER THAN THIS. In those ones, the polygons are perspective texture mapped with similar depth cueing (err, like there are pictures on the walls). Download them now! One uses to DirectX 7 for super slick graphics, one doesn't (just to prove it's possible). You can get them from :  www.planet-source.com/vb  and then search for my name [Simon Price] (and if you like my game, please vote for it!)
+
+-You can tell me what you think of my game by emailing feedback@VBgames.co.uk
+
+-If enough people ask, I could write a tutorial about how to make your own 3D game in VB, but as you can probably see already I am not very good at explaining things so I'll probably give it a miss.
+
+-Plans for the future : the game will include texture mapped floors [I'm working on that], sprites [cool! baddies to shoot at, I think I can do it if I manage to get the floors right first], ceilings [once I've figured out the floor, the ceiling should be easy] and soundFX. However, it's not just a case of figuring out how to do it, but I need to make it very efficient [have you ever seen a full 3D perspective texture mapped Visual Basic shooting game that uses no Direct3D and runs in real time? Thought not]. So it'll be hard, but maybe you'll see it in a few weeks.
+
+-I'd just like to emphasize the fact that this game ONLY uses Visual Basic, it does not use any DLL's in other languages, it does not use any special controls, no DirectX and no OpenGL and certainly no 3D hardware accelaration. Chances are, if you see another 3D VB game, it'll use one of these techniques to speed it up. If however you find a cool game that only uses VB, then please tell me at ifoundacoolgameforyou@VBgames.co.uk
+
+-I'm not saying that making a game without faster languages (C++, assembler etc.) or DirectX is a good idea [it's a bit dumb actually], but I will learn alot from doing it the hard way. That and the fact that I am too dumb/lazy to learn anything other than VB.
+
+-Simon Price
+-email : Si@VBgames.co.uk
+-website : www.VBgames.co.uk
+
+
